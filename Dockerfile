@@ -6,19 +6,17 @@ ENV EULA=TRUE
 # Server configuration
 ENV TYPE=FABRIC \
     VERSION=1.20.1 \
-    MEMORY=4G \
+    MEMORY=2G \
     INIT_MEMORY=1G \
     MAX_MEMORY=4G \
     DIFFICULTY=normal \
     MAX_PLAYERS=10 \
     MOTD="Cobblemon Server on Railway" \
     PVP=false \
-    ENABLE_RCON=false
+    ENABLE_RCON=false \
+    ENABLE_QUERY=false
 
-# Auto-install Cobblemon from Modrinth
-ENV MODRINTH_PROJECTS=cobblemon
-
-# Also install Fabric API (required dependency)
+# Install Cobblemon and Fabric API from Modrinth
 ENV MODRINTH_PROJECTS=cobblemon,fabric-api
 
 # Railway health check
