@@ -1,4 +1,4 @@
-FROM itzg/minecraft-server:java17
+FROM itzg/minecraft-server:java21
 
 # Accept EULA automatically
 ENV EULA=TRUE
