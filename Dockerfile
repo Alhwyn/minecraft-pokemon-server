@@ -24,5 +24,3 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=120s \
   CMD mc-health || exit 1
 
 EXPOSE 25565
-
-VOLUME /data
