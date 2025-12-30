@@ -5,7 +5,7 @@ ENV EULA=TRUE
 
 # Server configuration
 ENV TYPE=FABRIC \
-    VERSION=1.20.1 \
+    VERSION=1.21.1 \
     MEMORY=2G \
     INIT_MEMORY=1G \
     MAX_MEMORY=4G \
